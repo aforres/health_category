@@ -17,6 +17,8 @@ of 74 years, your general health may be more important than being mildly overwei
 Some researchers have suggested that a BMI range of 22-26 is acceptable for older
 Australians.""")
 
+st.link_button("Go to comments",'https://www.healthdirect.gov.au/bmi-calculator')
+
 
 # Input
 
