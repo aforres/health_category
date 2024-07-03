@@ -1,7 +1,7 @@
 import streamlit as st 
 from PIL import Image
 
-st.title("This is My BMI Calculator")
+st.title("This is My Body Mass Index (BMI) Calculator")
 
 img = Image.open("bmi.jpg")
 st.image(img)
