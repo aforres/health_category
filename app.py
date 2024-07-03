@@ -22,9 +22,9 @@ st.link_button("Go to source at https://www.healthdirect.gov.au/bmi-calculator",
 
 # Input
 
-weight = st.number_input("Enter your Weight in KG", step = 0.1)
+weight = st.number_input("Enter your Weight in Kg", step = 0.1)
 
-height = st.number_input("Enter your Height in Meters")
+height = st.number_input("Enter your Height in Metres")
 
 if weight > 0 and height > 0:
     bmi = weight/(height)**2.0
